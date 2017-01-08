@@ -74,7 +74,7 @@ import java.util.Arrays;
  * recursive methods otherwise. It makes it easier to implement
  * <a href="http://en.wikipedia.org/wiki/Brute-force_search" target="_top">
  * brute force algorithms</a>.
- * @author guir
+ * @author Guilherme Alan Ritter
  */
 public final class TallyCounter {
 
