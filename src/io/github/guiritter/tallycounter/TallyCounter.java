@@ -241,10 +241,9 @@ public final class TallyCounter {
     /**
      * If the counter is normal, set all numbers to zero; else,
      * set the last number to zero, the previous number to one, and so on.
-     * Sets the overflow flag value.
-     * @param overflow new overflow flag value
+     * Keeps the overflow flag value.
      */
-    public void reset (boolean overflow) {
+    public void reset () {
         if (type == Type.NORMAL) {
             for (i = 0; i < array.length; i++) {
                 array[i] = 0;
@@ -254,6 +253,16 @@ public final class TallyCounter {
                 array[i] = array.length - i - 1;
             }
         }
+    }
+
+    /**
+     * If the counter is normal, set all numbers to zero; else,
+     * set the last number to zero, the previous number to one, and so on.
+     * Sets the overflow flag value.
+     * @param overflow new overflow flag value
+     */
+    public void reset (boolean overflow) {
+        reset();
         overflowFlag = overflow;
     }
 
