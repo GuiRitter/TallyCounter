@@ -1,4 +1,4 @@
-package io.github.guiritter.tallycounter;
+package io.github.guiritter.tally_counter;
 
 import java.util.Arrays;
 

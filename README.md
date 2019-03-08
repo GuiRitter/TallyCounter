@@ -104,3 +104,5 @@ which is
 It's more verbose, but the amount of nested loops can be altered programatically, which would require recursive methods otherwise. It makes it easier to implement [brute force algorithms](http://en.wikipedia.org/wiki/Brute-force_search) and to skip combinations according to the modes mentioned above.
 
 I've created a program [here](https://github.com/GuiRitter/TallyCounterDemo) that demonstrates the functionality of this class.
+
+[A few words about Maven.](https://gist.github.com/GuiRitter/1834bd024756e08ab422026a7cd24605)
